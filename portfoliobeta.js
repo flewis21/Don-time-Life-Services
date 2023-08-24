@@ -5,7 +5,7 @@ var calAgenda = function () {
 
 function calendar() {
   var events = boilerplate.loopValues(
-    boilerplate.sliceValues(boilerplate.getValues(), 1)
+    boilerplate.sliceValues(boilerplate.getValues(), 1),
   );
   for (var i = 0; i < events.length; i++) {
     var start = events[i][0];
