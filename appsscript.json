@@ -1,0 +1,24 @@
+{
+  "timeZone": "America/New_York",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "custom_bands",
+        "libraryId": "1EcDu8RLqksGN4WjYrXXC-BQhAUe0CafsQffl-A4PoJHc0usEe2TP5Qrt",
+        "version": "7"
+      },
+      {
+        "userSymbol": "boilerplate",
+        "libraryId": "14lqyRBpQArU7wWshDkPEL-5_nUj92IGluvZGPiTLzLoFjQKqc7MJ3sWc",
+        "version": "0",
+        "developmentMode": true
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_ACCESSING",
+    "access": "ANYONE"
+  }
+}
